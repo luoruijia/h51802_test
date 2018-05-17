@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<link rel="stylesheet" href="js/mm_carousel/mmcarousel.css" />
+	</head>
+	<body>
+	</body>
+	
+	<div class="container"></div>
+	<script type="text/javascript" src="lib/jquery/jquery-1.12.4.min.js" ></script>
+	<script src="js/mm_carousel/jquery.mmcarousel.js"></script>
+	
+	<script>
+		$(".container").carousel({
+		imgs : [
+			{src:"images/carousel/1.jpg", href:"xx1.html"},
+			{src:"images/carousel/2.jpg", href:"xx2.html"},
+			{src:"images/carousel/3.jpg", href:"xx3.html"},
+			{src:"images/carousel/4.jpg", href:"xx4.html"}
+		],
+		width : 590,
+		height : 470,
+		duration : 5000,
+		addPrevNextBtn: true
+		});
+	</script>
+</html>
